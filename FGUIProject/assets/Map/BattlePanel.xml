@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1080,1920" remark="Main">
+  <displayList>
+    <image id="n0_k2hm" name="n0" src="ab9e4" fileName="Images/Button.png" pkg="f2boiu4i" xy="21,2" size="1039,121">
+      <relation target="" sidePair="center-center,topext-top,bottomext-top"/>
+    </image>
+    <text id="n1_k2hm" name="n1" xy="387,22" size="319,77" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="第一关">
+      <relation target="" sidePair="center-center,topext-top,bottomext-top"/>
+    </text>
+    <component id="n2_k2hm" name="AddBtn" src="k2hm1" fileName="Components/Button.xml" xy="485,1646"/>
+    <text id="n3_k2hm" name="NumText" xy="23,128" size="309,73" fontSize="30" color="#ffffff" vAlign="middle" autoSize="none" text="0"/>
+  </displayList>
+</component>

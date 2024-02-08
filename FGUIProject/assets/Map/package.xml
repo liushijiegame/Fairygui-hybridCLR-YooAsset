@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="u6p0c2cv">
+  <resources>
+    <component id="k2hm0" name="BattlePanel.xml" path="/" exported="true"/>
+    <component id="k2hm1" name="Button.xml" path="/Components/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

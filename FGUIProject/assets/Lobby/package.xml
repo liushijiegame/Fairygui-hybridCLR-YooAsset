@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="ti3ka994">
+  <resources>
+    <component id="t52l0" name="LobbyPanel.xml" path="/" exported="true"/>
+    <image id="er4u6" name="bg.png" path="/Images/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 185f6993d5150494d98da50e26cb1c25, type: 3}
+  m_Name: AssetBundleCollectorSetting
+  m_EditorClassIdentifier: 
+  ShowPackageView: 1
+  ShowEditorAlias: 0
+  UniqueBundleName: 1
+  Packages:
+  - PackageName: DefaultPackage
+    PackageDesc: "\u7F8E\u672F\u8D44\u6E90"
+    EnableAddressable: 1
+    LocationToLower: 0
+    IncludeAssetGUID: 0
+    IgnoreDefaultType: 1
+    AutoCollectShaders: 1
+    Groups:
+    - GroupName: shader
+      GroupDesc: "\u7740\u8272\u5668"
+      AssetTags: 
+      ActiveRuleName: EnableGroup
+      Collectors:
+      - CollectPath: Assets/GameArt/ShaderVariants
+        CollectorGUID: 00781758c26692e40a9634ddeac838be
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackShaderVariants
+        FilterRuleName: CollectShaderVariants
+        AssetTags: 
+        UserData: 
+    - GroupName: scene
+      GroupDesc: "\u573A\u666F"
+      AssetTags: 
+      ActiveRuleName: EnableGroup
+      Collectors:
+      - CollectPath: Assets/GameRes/Scene
+        CollectorGUID: 6070eae1192f2994887f2983a177d503
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackSeparately
+        FilterRuleName: CollectAll
+        AssetTags: 
+        UserData: 
+    - GroupName: ugui
+      GroupDesc: "\u9762\u677F"
+      AssetTags: 
+      ActiveRuleName: EnableGroup
+      Collectors:
+      - CollectPath: Assets/GameRes/UIImage
+        CollectorGUID: 30c57db62bb02a24590e7046d3a9e33a
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 
+        UserData: 
+      - CollectPath: Assets/GameRes/UIPanel
+        CollectorGUID: 12d33f33f3a55224c9c747d7bffa1c68
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackSeparately
+        FilterRuleName: CollectAll
+        AssetTags: 
+        UserData: 
+      - CollectPath: Assets/GameRes/UIAtlas
+        CollectorGUID: 80caf8bc3d0ac5b48a5cab7765a68205
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackSeparately
+        FilterRuleName: CollectAll
+        AssetTags: 
+        UserData: 
+    - GroupName: FUI
+      GroupDesc: "\u56FE\u96C6"
+      AssetTags: 
+      ActiveRuleName: EnableGroup
+      Collectors:
+      - CollectPath: Assets/GameArt/FUI_atlas
+        CollectorGUID: 17c1c99639998404987663eadd37ffa7
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 
+        UserData: 
+    - GroupName: Unit
+      GroupDesc: "\u573A\u666F\u5355\u4F4D"
+      AssetTags: 
+      ActiveRuleName: EnableGroup
+      Collectors:
+      - CollectPath: Assets/GameRes/Unit
+        CollectorGUID: 493b166972e623449b2d8e16f51e9c24
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 
+        UserData: 
+  - PackageName: CodeResPackage
+    PackageDesc: "\u70ED\u66F4\u7A0B\u5E8F\u96C6"
+    EnableAddressable: 1
+    LocationToLower: 0
+    IncludeAssetGUID: 0
+    IgnoreDefaultType: 1
+    AutoCollectShaders: 1
+    Groups:
+    - GroupName: Code
+      GroupDesc: "DLL\u70ED\u66F4"
+      AssetTags: 
+      ActiveRuleName: EnableGroup
+      Collectors:
+      - CollectPath: Assets/GameRes/Code
+        CollectorGUID: 0b584ef7064a8f540a0abd6d34c0af79
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackRawFile
+        FilterRuleName: CollectAll
+        AssetTags: 
+        UserData: 
+    - GroupName: FUIConfig
+      GroupDesc: 
+      AssetTags: 
+      ActiveRuleName: EnableGroup
+      Collectors:
+      - CollectPath: Assets/GameArt/FUI_bytes
+        CollectorGUID: 294de8953a16b9646975d698647e8951
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackRawFile
+        FilterRuleName: CollectAll
+        AssetTags: 
+        UserData: 

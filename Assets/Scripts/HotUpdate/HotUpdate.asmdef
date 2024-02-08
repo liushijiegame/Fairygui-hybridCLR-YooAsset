@@ -1,0 +1,21 @@
+{
+    "name": "HotUpdate",
+    "rootNamespace": "",
+    "references": [
+        "GUID:e34a5702dd353724aa315fb8011f08c3",
+        "GUID:f22fac247a56d2d41b687bb0d900e54e",
+        "GUID:1ea6b676786131e4095182b742bb64ec",
+        "GUID:bb1ed418c7d083d49bdc0394566c7fb4",
+        "GUID:408eb5045f0f14646a17a1ebb2e2c157",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

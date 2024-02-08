@@ -1,0 +1,8 @@
+﻿##,key,name,TextCHS,TextCHT,TextEN,TextJP,TextFR,TextGE,TextSP,TextPT
+##type,string,string,string,string,string,string,string,string,string,string
+##comment,,控件名，方便查找,简体中文,繁体中文,英文,日文,法文,德文,西班牙文,葡萄牙文
+##,Login/组件/login_main.xml,,,,
+,rr499cgxotfk0-n1_otfk,title,登录,,,,,,,
+,rr499cgxotfk0-n2_g8qu,n2,Play,,,,,,,
+##,Login/组件/prompt_text.xml,,,,
+,rr499cgxsdhg2-n0_sdhg,title,测试文本测试文本测试,,,,,,,

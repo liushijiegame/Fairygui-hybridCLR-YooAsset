@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1080,1920" remark="Main">
+  <displayList>
+    <image id="n6_k2hm" name="n6" src="er4u6" fileName="Images/bg.png" xy="0,0"/>
+    <component id="n3_lobh" name="EnterMap" src="lobhq" fileName="Components/CommonBtn.xml" pkg="f2boiu4i" xy="344,1674" size="434,110">
+      <Button title="进入地图"/>
+      <property target="image" propertyId="1" value="ui://f2boiu4iab9e4"/>
+    </component>
+  </displayList>
+</component>
